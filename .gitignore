@@ -1,0 +1,69 @@
+# =====================
+# Secrets / Environment
+# =====================
+.env
+*.env
+!*.env.example
+
+# =====================
+# Python / AI Engine
+# =====================
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+*.egg
+.Python
+env/
+pip-selfcheck.json
+*.log
+
+# Test / Debug scripts
+test_*.py
+verify_gemini.py
+list_models.py
+*.old
+models.txt
+
+# =====================
+# Java / Maven (Backend)
+# =====================
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+build_log.txt
+startup*.log
+
+# =====================
+# Angular / Node (Frontend)
+# =====================
+node_modules/
+dist/
+.angular/
+.npm
+*.js.map
+
+# =====================
+# IDE / Editor
+# =====================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =====================
+# Support Files (Exclude from GitHub)
+# =====================
+.env.example
+Commands.txt
+SETUP_GUIDE.md
+docker-compose.yml
