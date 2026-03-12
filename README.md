@@ -39,7 +39,7 @@ The platform uses **Google Gemini** (via a Python FastAPI engine called **ForgeA
 
 ---
 
-## 🖼️ Screenshots
+## 🖼️ UI
 
 ### 🏠 Dashboard & JD Upload
 
